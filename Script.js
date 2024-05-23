@@ -8,10 +8,10 @@ html.classList.toggle("light")
   //substituir a imagem
   if(html.classList.contains('light')){
     //se tiver light mode, adicionar a imagem
-    img.setAttribute("src", "Assets/avatar-light.png")
+    img.setAttribute("src", "./Assets/avatar-light.png")
 
   } else {
     //se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "Assets/avatar.png")
+    img.setAttribute("src", "./Assets/avatar.png")
   }
 }
