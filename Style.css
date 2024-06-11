@@ -19,12 +19,13 @@
   --bg-url: url(./Assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.05);
-  --highlight-color: rgba(0, 0, 0, 0.2);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./Assets/sun.svg);
 }
+
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  --switch-bg-url: url(./Assets/Sun.svg);
   height: 100vh;
 }
 
@@ -171,6 +172,7 @@ footer {
   :root {
     --bg-url: url(./Assets/bg-desktop.jpg);
   }
+
   .light {
     --bg-url: url(./Assets/bg-desktop-light.jpg);
   }
