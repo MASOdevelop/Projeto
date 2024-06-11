@@ -9,7 +9,7 @@
   --bg-url: url(./Assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.05);
   --switch-bg-url: url(./Assets/MoonStars.svg);
 }
@@ -83,7 +83,7 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards; 
+  animation: slide-in 0.2s forwards;
 }
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
@@ -169,7 +169,6 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-
     --bg-url: url(./Assets/bg-desktop.jpg);
   }
   .light {
